@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
 ipaddr="192.168.1.2"
+macaddr="52:64:2b:63:f4:63"
 
 # i18n
 uci set system.cfg01e48a.hostname="xiaomi_mi-router-3"
@@ -13,7 +14,8 @@ uci set uhttpd.main.listen_https="${ipaddr}:443"
 uci set uhttpd.main.redirect_https="1"
 
 # network
-uci set network.cfg030f15.macaddr="52:64:2b:63:f4:63"
+uci set network.cfg040f15.macaddr="${macaddr}"
+uci set network.cfg060f15.macaddr="${macaddr}"
 uci set network.lan.ipaddr="${ipaddr}"
 uci set wireless.@wifi-device[0].disabled="0"
 
