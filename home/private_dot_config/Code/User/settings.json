@@ -1,0 +1,78 @@
+{
+  /** c++ */
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "clangd.fallbackFlags": ["-I${workspaceFolder}", "-std=c++20"],
+  "cmake.configureOnOpen": false,
+  "cmakeFormat.args": [
+    "--config-file",
+    "${workspaceFolder}/.cmake-format.json"
+  ],
+  /** formatting */
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "[c][cpp]": {
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+  },
+  "[css][dockercompose][html][javascript][javascriptreact][json][jsonc][scss][typescript][typescriptreact][yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  /** jupyter */
+  "jupyter.askForKernelRestart": false,
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "jupyter.themeMatplotlibPlots": true,
+  "notebook.outline.showCodeCells": true,
+  /** latex */
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.outDir": "%WORKSPACE_FOLDER%/out",
+  "latex-workshop.latex.recipes": [{ "name": "latexmk", "tools": ["latexmk"] }],
+  "latex-workshop.latex.tools": [
+    {
+      "args": ["-pdflua", "-shell-escape", "-outdir=%OUTDIR%", "-cd", "%DOC%"],
+      "command": "latexmk",
+      "name": "latexmk"
+    }
+  ],
+  /** markdown */
+  "markdown.updateLinksOnFileMove.enabled": "prompt",
+  "markdown.validate.enabled": true,
+  /** python */
+  "python.formatting.provider": "black",
+  "python.linting.flake8Enabled": true,
+  "python.linting.mypyEnabled": true,
+  "docker.languageserver.formatter.ignoreMultilineInstructions": true,
+  "remote.SSH.remoteServerListenOnSocket": false,
+  /** schemas */
+  "json.schemaDownload.enable": true,
+  /** telemetry */
+  "dotnetAcquisitionExtension.enableTelemetry": false,
+  "gitlens.telemetry.enabled": false,
+  "redhat.telemetry.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  /** ui */
+  "catppuccin.accentColor": "sapphire",
+  "editor.accessibilitySupport": "off",
+  "editor.fontFamily": "FiraCode Nerd Font Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.inlayHints.enabled": "on",
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 9,
+  "gitlens.graph.layout": "editor",
+  "gitlens.views.searchAndCompare.files.layout": "tree",
+  "scm.defaultViewMode": "tree",
+  "window.commandCenter": true,
+  "window.titleBarStyle": "custom", // TODO: https://github.com/microsoft/vscode/issues/184124
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.startupEditor": "none",
+  /** vsc */
+  "git.autofetch": true,
+  "git.confirmSync": false
+}
