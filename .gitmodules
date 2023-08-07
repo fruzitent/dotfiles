@@ -1,0 +1,4 @@
+[submodule "home/private_dot_config/spicetify/CustomApps/stats"]
+path = home/private_dot_config/spicetify/CustomApps/stats
+url = https://github.com/harbassan/spicetify-stats
+branch = dist
