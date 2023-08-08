@@ -38,10 +38,7 @@
   /** markdown */
   "markdown.updateLinksOnFileMove.enabled": "prompt",
   "markdown.validate.enabled": true,
-  /** python */
-  "python.formatting.provider": "black",
-  "python.linting.flake8Enabled": true,
-  "python.linting.mypyEnabled": true,
+  /** remote development */
   "docker.languageserver.formatter.ignoreMultilineInstructions": true,
   "remote.SSH.remoteServerListenOnSocket": false,
   /** schemas */
