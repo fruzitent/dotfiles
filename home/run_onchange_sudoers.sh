@@ -8,4 +8,4 @@ add_entry() {
   sudo bash -c "echo '$(whoami) ALL=(ALL:ALL) NOPASSWD: ${src}' > ${dst}"
 }
 
-add_entry ~/.local/share/chezmoi/scripts/asus_wmi_fan.sh /etc/sudoers.d/50-asus_wmi_fan
+add_entry ~/.local/bin/asus_wmi_fan.sh /etc/sudoers.d/50-asus_wmi_fan
