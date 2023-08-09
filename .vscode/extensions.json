@@ -38,14 +38,12 @@
     "ms-vscode.wordcount",
     /** other */
     "christian-kohler.path-intellisense",
-    "formulahendry.code-runner",
     "hangxingliu.vscode-systemd-support",
     "hediet.vscode-drawio",
     "icrawl.discord-vscode",
     "marclipovsky.string-manipulation",
     "ms-vscode.hexeditor",
     "ryuta46.multi-command",
-    "woozy-masta.shell-script-ide",
     /** python */
     "ms-python.black-formatter",
     "ms-python.flake8",
@@ -61,6 +59,7 @@
     "serayuzgur.crates",
     /** scripting */
     "ms-vscode.powershell",
+    "woozy-masta.shell-script-ide",
     /** toml */
     "tamasfe.even-better-toml",
     /** ui */
