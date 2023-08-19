@@ -1,0 +1,28 @@
+[advice]
+detachedHead = false
+
+[commit]
+gpgsign = true
+
+[fetch]
+prune = true
+
+[init]
+defaultBranch = main
+
+[rebase]
+autosquash = true
+stat = true
+
+[submodule]
+recurse = true
+
+[user]
+email = fruzit@gmail.com
+name = fruzitent
+
+[includeIf "hasconfig:remote.*.url:https://github.com/**"]
+path = ~/.config/git/github.conf
+
+[includeIf "hasconfig:remote.*.url:https://gitlab.com/**"]
+path = ~/.config/git/gitlab.conf
