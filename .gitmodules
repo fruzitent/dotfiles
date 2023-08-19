@@ -1,0 +1,14 @@
+[submodule "home/private_dot_config/spicetify/CustomApps/external_better-local-files"]
+path = home/private_dot_config/spicetify/CustomApps/external_better-local-files
+url = https://github.com/Pithaya/spicetify-apps-dist
+branch = dist/better-local-files
+
+[submodule "home/private_dot_config/spicetify/CustomApps/external_marketplace"]
+path = home/private_dot_config/spicetify/CustomApps/external_marketplace
+url = https://github.com/spicetify/spicetify-marketplace
+branch = dist
+
+[submodule "home/private_dot_config/spicetify/CustomApps/external_stats"]
+path = home/private_dot_config/spicetify/CustomApps/external_stats
+url = https://github.com/harbassan/spicetify-stats
+branch = dist
