@@ -1,0 +1,39 @@
+{
+  "appearance": {
+    "badges": {
+      "chatterino": false,
+      "ffz": false,
+      "predictions": false,
+      "seventv": false,
+      "vanity": false
+    },
+    "currentFontFamily": "FiraCode Nerd Font",
+    "currentFontSize": 11,
+    "messages": {
+      "findAllUsernames": true,
+      "showLastMessageIndicator": true,
+      "showMessageLength": true
+    },
+    "showTabCloseButton": false,
+    "splitheader": {
+      "showUptime": true,
+      "showViewerCount": true
+    },
+    "thumbnailSize": 200,
+    "uiScale2": 1
+  },
+  "emotes": {
+    "showUnlistedSevenTVEmotes": true
+  },
+  "highlighting": {
+    "alwaysPlaySound": true,
+    "users": []
+  },
+  "links": {
+    "linkInfoTooltip": true,
+    "unshortLinks": true
+  },
+  "notifications": {
+    "onAnyChannel": true
+  }
+}
