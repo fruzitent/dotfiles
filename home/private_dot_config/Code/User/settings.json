@@ -8,6 +8,9 @@
     "${workspaceFolder}/.cmake-format.json"
   ],
   /** formatting */
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
   "editor.formatOnSave": true,
   "files.autoSave": "onFocusChange",
   "[c][cpp]": {
