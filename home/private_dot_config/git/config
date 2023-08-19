@@ -7,8 +7,20 @@ gpgsign = true
 [fetch]
 prune = true
 
+[includeIf "hasconfig:remote.*.url:https://github.com/**"]
+path = ~/.config/git/github.conf
+
+[includeIf "hasconfig:remote.*.url:https://gitlab.com/**"]
+path = ~/.config/git/gitlab.conf
+
 [init]
 defaultBranch = main
+
+[pull]
+ff = only
+
+[push]
+autoSetupRemote = true
 
 [rebase]
 autosquash = true
@@ -20,9 +32,3 @@ recurse = true
 [user]
 email = fruzit@gmail.com
 name = fruzitent
-
-[includeIf "hasconfig:remote.*.url:https://github.com/**"]
-path = ~/.config/git/github.conf
-
-[includeIf "hasconfig:remote.*.url:https://gitlab.com/**"]
-path = ~/.config/git/gitlab.conf
