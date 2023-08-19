@@ -16,6 +16,12 @@
   "[css][dockercompose][html][javascript][javascriptreact][json][jsonc][scss][typescript][typescriptreact][yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
@@ -39,6 +45,11 @@
   "markdown.updateLinksOnFileMove.enabled": "prompt",
   "markdown.validate.enabled": true,
   /** remote development */
+  "dev.containers.dockerPath": "podman",
+  "docker.dockerPath": "podman",
+  "docker.environment": {
+    "DOCKER_HOST": "unix://$XDG_RUNTIME_DIR/podman/podman.sock"
+  },
   "docker.languageserver.formatter.ignoreMultilineInstructions": true,
   "remote.SSH.remoteServerListenOnSocket": false,
   /** schemas */
