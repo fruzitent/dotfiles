@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+set -ex
+
 ipaddr="192.168.1.2"
 macaddr="52:64:2b:63:f4:63"
 
@@ -18,8 +20,6 @@ uci set network.cfg040f15.macaddr="${macaddr}"
 uci set network.cfg060f15.macaddr="${macaddr}"
 uci set network.globals.packet_steering="1"
 uci set network.lan.ipaddr="${ipaddr}"
-uci set wireless.@wifi-device[0].disabled="0"
-uci set wireless.@wifi-device[1].disabled="0"
 
 # ssh
 uci set dropbear.cfg014dd4.PasswordAuth="off"
