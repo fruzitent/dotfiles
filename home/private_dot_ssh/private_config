@@ -1,5 +1,7 @@
 Host 192.168.1.1
+  StrictHostKeyChecking no
   User root
 
 Host 192.168.1.2
+  StrictHostKeyChecking no
   User root
