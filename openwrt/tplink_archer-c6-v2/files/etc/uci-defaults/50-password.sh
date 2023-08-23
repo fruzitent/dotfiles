@@ -2,7 +2,7 @@
 
 set -ex
 
-passwd=
-user=root
+passwd=""
+user="root"
 
 printf "%s\n%s" "${passwd}" "${passwd}" | passwd "${user}"

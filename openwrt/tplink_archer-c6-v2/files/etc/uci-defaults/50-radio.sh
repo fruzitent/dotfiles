@@ -2,8 +2,8 @@
 
 set -ex
 
-radio0_key=
-radio0_ssid=tplink_archer-c6-v2-5g
+radio0_key=""
+radio0_ssid="tplink_archer-c6-v2-5g"
 
 uci set wireless.@wifi-device[0].disabled="0"
 uci set wireless.default_radio0.encryption="sae-mixed"
@@ -18,8 +18,8 @@ uci set wireless.radio0.htmode="VHT40"
 uci set wireless.radio0.noscan="1"
 uci set wireless.radio0.txpower="23"
 
-radio1_key=
-radio1_ssid=tplink_archer-c6-v2
+radio1_key=""
+radio1_ssid="tplink_archer-c6-v2"
 
 uci set wireless.@wifi-device[1].disabled="0"
 uci set wireless.default_radio1.encryption="psk-mixed"
