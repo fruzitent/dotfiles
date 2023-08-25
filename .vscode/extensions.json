@@ -19,6 +19,7 @@
     "hashicorp.hcl",
     /** javascript */
     "dbaeumer.vscode-eslint",
+    "dtsvet.vscode-wasm",
     "esbenp.prettier-vscode",
     "ms-vscode.live-server",
     "ms-vscode.vscode-typescript-next",
