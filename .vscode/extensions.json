@@ -3,6 +3,9 @@
     /** ai */
     "github.copilot",
     "github.copilot-labs",
+    /** azure */
+    "ms-vscode.azurecli",
+    "ms-vscode.vscode-node-azure-pack",
     /** c++ */
     "cheshirekow.cmake-format",
     "cschlosser.doxdocgen",
@@ -19,6 +22,7 @@
     "hashicorp.hcl",
     /** javascript */
     "dbaeumer.vscode-eslint",
+    "dtsvet.vscode-wasm",
     "esbenp.prettier-vscode",
     "ms-vscode.live-server",
     "ms-vscode.vscode-typescript-next",
