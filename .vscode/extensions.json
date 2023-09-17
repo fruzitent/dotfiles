@@ -3,6 +3,9 @@
     /** ai */
     "github.copilot",
     "github.copilot-labs",
+    /** azure */
+    "ms-vscode.azurecli",
+    "ms-vscode.vscode-node-azure-pack",
     /** c++ */
     "cheshirekow.cmake-format",
     "cschlosser.doxdocgen",
