@@ -1,9 +1,17 @@
-Host 192.168.1.1
+Host tplink_archer-c6-v2
+  HostName 192.168.1.1
   Port 2222
   StrictHostKeyChecking no
   User root
 
-Host 192.168.1.2
+Host xiaomi_mi-router-3
+  HostName 192.168.1.2
   Port 2222
   StrictHostKeyChecking no
   User root
+
+Host asus_gt-ax11000
+  HostName 192.168.50.1
+  Port 2222
+  StrictHostKeyChecking no
+  User fruzitent

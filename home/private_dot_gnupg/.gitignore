@@ -1,0 +1,6 @@
+**/*
+!.gitignore
+
+!private_gpg-agent.conf
+!private_ownertrust.txt
+!readme.md
