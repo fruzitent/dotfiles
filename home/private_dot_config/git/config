@@ -1,23 +1,37 @@
+# https://git-scm.com/docs/git-config
+
 [advice]
 detachedHead = false
+
+[blame]
+ignoreRevsFile = ".git-blame-ignore-revs"
 
 [commit]
 gpgsign = true
 
+[core]
+ignorecase = false
+
 [fetch]
 prune = true
 
-[includeIf "hasconfig:remote.*.url:https://github.com/**"]
-path = ~/.config/git/github.conf
+[include]
+path = "~/.config/git/filter.conf"
 
-[includeIf "hasconfig:remote.*.url:https://gitlab.com/**"]
-path = ~/.config/git/gitlab.conf
+[include]
+path = "~/.config/git/os.conf"
+
+[include]
+path = "~/.config/git/remote.conf"
 
 [init]
-defaultBranch = main
+defaultBranch = "main"
+
+[merge]
+ff = false
 
 [pull]
-ff = only
+ff = "only"
 
 [push]
 autoSetupRemote = true
@@ -30,5 +44,5 @@ stat = true
 recurse = true
 
 [user]
-email = fruzit@gmail.com
-name = fruzitent
+email = "fruzit@gmail.com"
+name = "fruzitent"

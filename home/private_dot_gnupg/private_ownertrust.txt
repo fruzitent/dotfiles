@@ -1,0 +1,2 @@
+3E48032A4EEC4A799AAE272339EEE29D9DDAEAE7:6: # fruzitent <fruzit@gmail.com> (github.com)
+6D54E516BED998C1755D195B22ECD4EBD9A7B7EC:6: # fruzitent <fruzit@gmail.com> (gitlab.com)
