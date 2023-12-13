@@ -1,3 +1,5 @@
+# https://git-scm.com/docs/gitignore
+
 home/private_dot_gnupg/*
 !home/private_dot_gnupg/private_gpg-agent.conf
 
