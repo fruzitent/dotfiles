@@ -1,0 +1,8 @@
+[include]
+{{- if eq .chezmoi.os "darwin" }}
+path = "~/.config/git/os_darwin.conf"
+{{- else if eq .chezmoi.os "linux" }}
+path = "~/.config/git/os_linux.conf"
+{{- else if eq .chezmoi.os "windows" }}
+path = "~/.config/git/os_windows.conf"
+{{- end }}
