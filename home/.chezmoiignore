@@ -1,1 +1,1 @@
-{{ if ne .visual "vscode" -}} ./vscode/ {{ end }}
+{{ if ne .visual "vscode" -}} ./.vscode/ {{ end }}
