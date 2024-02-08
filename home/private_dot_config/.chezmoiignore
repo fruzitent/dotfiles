@@ -1,3 +1,4 @@
-{{ if ne .file_manager   "thunar"   -}} ./xfce4/ {{ end }}
-{{ if ne .visual         "vscode"   -}} ./Code/  {{ end }}
-{{ if ne .window_manager "hyprland" -}} ./hypr/  {{ end }}
+{{ if ne .audio_server   "pipewire"   -}} ./pipewire/ {{ end }}
+{{ if ne .file_manager   "thunar"     -}} ./xfce4/    {{ end }}
+{{ if ne .visual         "vscode"     -}} ./Code/     {{ end }}
+{{ if ne .window_manager "hyprland"   -}} ./hypr/     {{ end }}
