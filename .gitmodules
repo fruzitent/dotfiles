@@ -1,4 +1,4 @@
-# https://git-scm.com/docs/gitmodules
+# @help: https://git-scm.com/docs/gitmodules
 
 [submodule "home/private_dot_config/spicetify/CustomApps/external_better-local-files"]
 path = home/private_dot_config/spicetify/CustomApps/external_better-local-files
