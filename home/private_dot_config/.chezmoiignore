@@ -1,1 +1,2 @@
-{{ if ne .visual "vscode" -}} ./Code/ {{ end }}
+{{ if ne .visual         "vscode"   -}} ./Code/ {{ end }}
+{{ if ne .window_manager "hyprland" -}} ./hypr/ {{ end }}

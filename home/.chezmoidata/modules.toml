@@ -1,2 +1,5 @@
 # - vscode
 visual = "vscode"
+
+# - hyprland
+window_manager = "hyprland"
