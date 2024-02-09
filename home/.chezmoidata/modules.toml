@@ -1,0 +1,11 @@
+# - pipewire
+audio_server = "pipewire"
+
+# - thunar
+file_manager = "thunar"
+
+# - vscode
+visual = "vscode"
+
+# - hyprland
+window_manager = "hyprland"
