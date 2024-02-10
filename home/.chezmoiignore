@@ -1,1 +1,2 @@
-{{ if ne .visual "vscode" -}} ./.vscode/ {{ end }}
+{{ if ne .browser "firefox" -}} ./.mozilla/ {{ end }}
+{{ if ne .visual  "vscode"  -}} ./.vscode/  {{ end }}

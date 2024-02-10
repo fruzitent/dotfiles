@@ -1,6 +1,9 @@
 # - pipewire
 audio_server = "pipewire"
 
+# - firefox
+browser = "firefox"
+
 # - thunar
 file_manager = "thunar"
 
