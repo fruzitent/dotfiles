@@ -7,6 +7,5 @@
 
 {{ if ne .is_git        true -}} ./git/               {{ end }}
 {{ if ne .is_htop       true -}} ./htop/              {{ end }}
-{{ if ne .is_spicetify  true -}} ./spicetify/         {{ end }}
 {{ if ne .is_spotify    true -}} ./spotify/           {{ end }}
 {{ if ne .is_spotify    true -}} ./spotify-flags.conf {{ end }}
