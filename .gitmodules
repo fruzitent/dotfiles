@@ -1,1 +1,6 @@
 # @help: https://git-scm.com/docs/gitmodules
+
+[submodule "root/opt/external_paru-bin"]
+branch = master
+path = root/opt/external_paru-bin
+url = https://aur.archlinux.org/paru-bin.git
