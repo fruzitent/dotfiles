@@ -4,6 +4,9 @@ audio_server = "pipewire"
 # - firefox
 browser = "firefox"
 
+# - helix
+editor = "helix"
+
 # - thunar
 file_manager = "thunar"
 
