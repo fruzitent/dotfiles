@@ -8,4 +8,5 @@ file_manager = "thunar"
 visual = "vscode"
 
 # - hyprland
-window_manager = "hyprland"
+# - sway
+window_manager = "sway"
