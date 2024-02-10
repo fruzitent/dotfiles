@@ -1,87 +1,137 @@
 {
   "recommendations": [
     /** ai */
+    "github.copilot-chat",
     "github.copilot",
-    "github.copilot-labs",
-    /** azure */
-    "ms-vscode.azurecli",
-    "ms-vscode.vscode-node-azure-pack",
-    /** c++ */
-    "cheshirekow.cmake-format",
+    /** ci/cd */
+    "github.vscode-github-actions",
+    /** format */
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    /** keybinds */
+    "edonet.vscode-command-runner",
+    "ryuta46.multi-command",
+    /** mode-android */
+    "adelphes.android-dev-ext",
+    "diemasmichiels.emulate",
+    "flimberger.android-system-tools",
+    /** mode-c */
     "cschlosser.doxdocgen",
     "llvm-vs-code-extensions.vscode-clangd",
     "ms-vscode.cpptools-extension-pack",
     "ms-vscode.makefile-tools",
     "vadimcn.vscode-lldb",
-    /** databases */
-    "ms-ossdata.vscode-postgresql",
-    /** formatting */
-    "editorconfig.editorconfig",
-    /** hcl */
+    /** mode-cmake*/
+    "josetr.cmake-language-support-vscode",
+    "ms-vscode.cmake-tools",
+    "twxs.cmake",
+    /** mode-css */
+    "syler.sass-indented",
+    /** mode-csv */
+    "mechatroner.rainbow-csv",
+    /** mode-docker */
+    "exiasr.hadolint",
+    "ms-azuretools.vscode-docker",
+    /** mode-go */
+    "golang.go",
+    "jinliming2.vscode-go-template",
+    /** mode-hcl */
     "fredwangwang.vscode-hcl-format",
     "hashicorp.hcl",
-    /** javascript */
+    "hashicorp.terraform",
+    /** mode-html */
+    "bierner.lit-html",
+    /** mode-java */
+    "naco-siren.gradle-language",
+    "vscjava.vscode-gradle",
+    "vscjava.vscode-java-pack",
+    /** mode-js */
     "dbaeumer.vscode-eslint",
     "dtsvet.vscode-wasm",
-    "esbenp.prettier-vscode",
-    "ms-vscode.live-server",
     "ms-vscode.vscode-typescript-next",
-    "prisma.prisma",
-    "svelte.svelte-vscode",
-    "syler.sass-indented",
-    /** jupyter */
+    "mylesmurphy.prettify-ts",
+    /** mode-jupyter */
     "ms-python.gather",
     "ms-toolsai.datawrangler",
+    "ms-toolsai.jupyter-hub",
+    "ms-toolsai.jupyter",
     "ms-toolsai.vscode-jupyter-powertoys",
-    /** latex */
-    "james-yu.latex-workshop",
-    /** markdown */
-    "bierner.github-markdown-preview",
-    "davidanson.vscode-markdownlint",
     "ms-vscode.vscode-markdown-notebook",
+    /** mode-k8s */
+    "ms-kubernetes-tools.kind-vscode",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    /** mode-kt */
+    "mathiasfrohlich.kotlin",
+    /** mode-md */
+    "bierner.github-markdown-preview",
+    "bierner.markdown-image-size",
+    "bierner.markdown-shiki",
+    "davidanson.vscode-markdownlint",
     "ms-vscode.wordcount",
-    /** other */
-    "christian-kohler.path-intellisense",
-    "hangxingliu.vscode-systemd-support",
-    "hediet.vscode-drawio",
-    "icrawl.discord-vscode",
-    "marclipovsky.string-manipulation",
-    "ms-vscode.hexeditor",
-    "ryuta46.multi-command",
-    /** python */
+    /** mode-py */
+    "charliermarsh.ruff",
     "ms-python.black-formatter",
+    "ms-python.debugpy",
     "ms-python.flake8",
     "ms-python.isort",
     "ms-python.mypy-type-checker",
-    /** remote development */
-    "github.codespaces",
-    "ms-azuretools.vscode-docker",
-    "ms-kubernetes-tools.vscode-kubernetes-tools",
-    "ms-vscode-remote.vscode-remote-extensionpack",
-    /** rust */
+    "ms-python.pylint",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    /** mode-rs */
     "rust-lang.rust-analyzer",
     "serayuzgur.crates",
-    /** scripting */
+    /** mode-sh */
+    "foxundermoon.shell-format",
     "ms-vscode.powershell",
+    "timonwong.shellcheck",
     "woozy-masta.shell-script-ide",
-    /** toml */
+    /** mode-sql */
+    "ariga.atlas-hcl",
+    "ms-ossdata.vscode-postgresql",
+    "renesaarsoo.sql-formatter-vsc",
+    /** mode-ssh */
+    "ms-vscode-remote.remote-ssh-edit",
+    /** mode-tex */
+    "james-yu.latex-workshop",
+    /** mode-toml */
     "tamasfe.even-better-toml",
+    /** mode-xml */
+    "DotJoshJohnson.xml",
+    "redhat.vscode-xml",
+    /** mode-yaml */
+    "redhat.vscode-yaml",
+    /** other */
+    "figma.figma-vscode-extension",
+    "hediet.vscode-drawio",
+    "icrawl.discord-vscode",
+    "ms-vscode.hexeditor",
+    /** qa */
+    "github.vscode-codeql",
+    // "snyk-security.snyk-vulnerability-scanner",
+    /** remote */
+    "github.codespaces",
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "ms-vscode.remote-repositories",
     /** ui */
     "aaron-bond.better-comments",
-    "Catppuccin.catppuccin-vsc-pack",
-    "IBM.output-colorizer",
-    "icrawl.discord-vscode",
-    "mechatroner.rainbow-csv",
-    "mutantdino.resourcemonitor",
+    "catppuccin.catppuccin-vsc-pack",
+    "github.github-vscode-theme",
+    "ibm.output-colorizer",
     "oderwat.indent-rainbow",
+    /** ux */
+    "alefragnani.bookmarks",
+    "bierner.color-info",
+    "bierner.emojisense",
+    "chrislajoie.vscode-modelines",
+    "christian-kohler.path-intellisense",
+    "marclipovsky.string-manipulation",
+    "ms-vscode.live-server",
+    "mutantdino.resourcemonitor",
     "usernamehw.errorlens",
-    /** vsc */
+    /** vcs */
     "eamodio.gitlens",
-    "github.vscode-github-actions",
     "github.vscode-pull-request-github",
-    "ms-vscode.remote-repositories",
-    "ms-vscode.vscode-github-issue-notebooks",
-    /** xml */
-    "redhat.vscode-xml"
+    "ms-vscode.vscode-github-issue-notebooks"
   ]
 }
