@@ -1,4 +1,5 @@
 is_chatterino = true
+is_discord = true
 is_git = true
 is_htop = true
 is_spotify = true

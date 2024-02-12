@@ -1,0 +1,7 @@
+{
+  "openasar": {
+    "autoupdate": false,
+    "quickstart": true,
+    "setup": true
+  }
+}
