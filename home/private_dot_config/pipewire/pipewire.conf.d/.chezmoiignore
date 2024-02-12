@@ -1,1 +1,2 @@
-{{ if ne .headphones "superlux_hd668b" -}} ./superlux_hd668b.conf {{ end }}
+{{ if ne .headphones "superlux_hd660pro_150ohm" -}} ./superlux_hd660pro_150ohm.conf {{ end }}
+{{ if ne .headphones "superlux_hd668b"          -}} ./superlux_hd668b.conf          {{ end }}
