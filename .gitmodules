@@ -1,5 +1,10 @@
 # @help: https://git-scm.com/docs/gitmodules
 
+[submodule "root/opt/external_hostapd"]
+branch = main
+path = root/opt/external_hostapd
+url = https://gitlab.archlinux.org/archlinux/packaging/packages/wpa_supplicant.git
+
 [submodule "root/opt/external_paru-bin"]
 branch = master
 path = root/opt/external_paru-bin

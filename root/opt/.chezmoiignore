@@ -1,1 +1,2 @@
+{{ if ne .chezmoi.osRelease.id "arch" -}} ./hostapd/  {{ end }}
 {{ if ne .chezmoi.osRelease.id "arch" -}} ./paru-bin/ {{ end }}
