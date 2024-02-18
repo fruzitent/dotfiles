@@ -1,4 +1,4 @@
-# https://git-scm.com/docs/git-config
+# @help: https://git-scm.com/docs/git-config
 
 [advice]
 detachedHead = false
@@ -10,6 +10,8 @@ ignoreRevsFile = ".git-blame-ignore-revs"
 gpgsign = true
 
 [core]
+excludesfile = "~/.config/git/ignore"
+hooksPath = "~/.config/git/hooks"
 ignorecase = false
 
 [fetch]
@@ -38,6 +40,7 @@ autoSetupRemote = true
 
 [rebase]
 autosquash = true
+instructionFormat = "%s%nexec GIT_COMMITTER_DATE=\"%cD\" GIT_COMMITTER_EMAIL=\"%ce\" GIT_COMMITTER_NAME=\"%cn\" git commit --amend --no-edit"
 stat = true
 
 [submodule]

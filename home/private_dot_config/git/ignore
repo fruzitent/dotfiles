@@ -1,0 +1,48 @@
+# @help: https://git-scm.com/docs/gitignore
+
+# IDE
+
+.fleet
+.idea
+.vs
+.vscode
+
+# ableton
+
+*Project/Backup/**/*
+Desktop.ini
+
+# cpp
+
+out/
+.clangd
+
+# kt
+
+.gradle/
+build/
+
+local.properties
+
+# js
+
+dist/
+node_modules/
+
+# py
+
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.tox/
+
+*venv/
+*.egg-info/
+build/
+
+.coverage*
+
+# rs
+
+target/
