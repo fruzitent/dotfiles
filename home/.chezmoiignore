@@ -1,2 +1,4 @@
+# @help: https://chezmoi.io/reference/special-files-and-directories/chezmoiignore
+
 {{ if ne .browser "firefox" -}} ./.mozilla/ {{ end }}
 {{ if ne .visual  "vscode"  -}} ./.vscode/  {{ end }}
