@@ -1,0 +1,24 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+
+# /dev/mapper/luksdev LABEL=primary
+UUID=d6e1aca7-d586-409d-8986-72515275f883 / btrfs rw,noatime,compress=zstd:3,ssd,space_cache=v2,subvol=/@ 0 0
+
+# /dev/mapper/luksdev LABEL=primary
+UUID=d6e1aca7-d586-409d-8986-72515275f883 /home btrfs rw,noatime,compress=zstd:3,ssd,space_cache=v2,subvol=/@home 0 0
+
+# /dev/mapper/luksdev LABEL=primary
+UUID=d6e1aca7-d586-409d-8986-72515275f883 /var/log btrfs rw,noatime,compress=zstd:3,ssd,space_cache=v2,subvol=/@log 0 0
+
+# /dev/mapper/luksdev LABEL=primary
+UUID=d6e1aca7-d586-409d-8986-72515275f883 /var/cache/pacman/pkg btrfs rw,noatime,compress=zstd:3,ssd,space_cache=v2,subvol=/@pkg 0 0
+
+# /dev/mapper/luksdev LABEL=primary
+UUID=d6e1aca7-d586-409d-8986-72515275f883 /.snapshots btrfs rw,noatime,compress=zstd:3,ssd,space_cache=v2,subvol=/@snapshots 0 0
+
+# /dev/nvme0n1p1 LABEL=EFI
+UUID=4981-6020 /efi vfat rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro 0 2
+
+/swapfile none swap defaults 0 0
