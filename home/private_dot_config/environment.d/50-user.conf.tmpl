@@ -1,3 +1,6 @@
 BROWSER="{{ .browser }}"
 EDITOR="{{ .editor }}"
-VISUAL="{{ .visual }}"
+
+{{ if eq .visual "vscode" -}}
+VISUAL="code --wait"
+{{ end }}
