@@ -2,4 +2,5 @@
 
 set -euxo pipefail
 
-curl https://raw.githubusercontent.com/jetfir3/SpotX-Bash/main/spotx.sh | sh -s -- -f -P /opt/spotify
+# https://github.com/SpotX-Official/SpotX-Bash/blob/main/README.md#usage
+curl "https://raw.githubusercontent.com/jetfir3/SpotX-Bash/main/spotx.sh" | sh -s -- -f -P "/opt/spotify"
