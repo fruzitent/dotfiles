@@ -13,6 +13,9 @@ editor = "helix"
 # - thunar
 file_manager = "thunar"
 
+# - alacritty
+term = "alacritty"
+
 # - vscode
 visual = "vscode"
 

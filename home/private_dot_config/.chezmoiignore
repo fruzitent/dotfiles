@@ -1,10 +1,11 @@
-{{ if ne .audio_server   "pipewire" -}} ./pipewire/       {{ end }}
-{{ if ne .editor         "helix"    -}} ./helix/          {{ end }}
-{{ if ne .file_manager   "thunar"   -}} ./xfce4/          {{ end }}
-{{ if ne .visual         "vscode"   -}} ./Code/           {{ end }}
-{{ if ne .visual         "vscode"   -}} ./code-flags.conf {{ end }}
-{{ if ne .window_manager "hyprland" -}} ./hypr/           {{ end }}
-{{ if ne .window_manager "sway"     -}} ./sway/           {{ end }}
+{{ if ne .audio_server   "pipewire"  -}} ./pipewire/       {{ end }}
+{{ if ne .editor         "helix"     -}} ./helix/          {{ end }}
+{{ if ne .file_manager   "thunar"    -}} ./xfce4/          {{ end }}
+{{ if ne .term           "alacritty" -}} ./alacritty/      {{ end }}
+{{ if ne .visual         "vscode"    -}} ./code-flags.conf {{ end }}
+{{ if ne .visual         "vscode"    -}} ./Code/           {{ end }}
+{{ if ne .window_manager "hyprland"  -}} ./hypr/           {{ end }}
+{{ if ne .window_manager "sway"      -}} ./sway/           {{ end }}
 
 {{ if ne .is_discord    true -}} ./discord/           {{ end }}
 {{ if ne .is_git        true -}} ./git/               {{ end }}
