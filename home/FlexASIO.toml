@@ -1,0 +1,3 @@
+# @help: https://github.com/dechamps/FlexASIO/blob/master/CONFIGURATION.md
+
+bufferSizeSamples = 2048
