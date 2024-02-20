@@ -1,0 +1,9 @@
+#:schema https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/cargo.json
+# @help: https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.release]
+lto = true
+strip = true
+
+[target.x86_64-unknown-linux-gnu]
+rustflags = ["-C", "link-arg=-fuse-ld=mold"]
