@@ -7,7 +7,7 @@
       "seventv": false,
       "vanity": false
     },
-    "currentFontFamily": "FiraCode Nerd Font",
+    "currentFontFamily": "Segoe UI",
     "currentFontSize": 11,
     "messages": {
       "findAllUsernames": true,
@@ -19,8 +19,15 @@
       "showUptime": true,
       "showViewerCount": true
     },
+    "tabVisibility": 1,
+    "theme": {
+      "name": "Dark"
+    },
     "thumbnailSize": 200,
     "uiScale2": 1
+  },
+  "behaviour": {
+    "autorun": true
   },
   "emotes": {
     "showUnlistedSevenTVEmotes": true
@@ -33,7 +40,15 @@
     "linkInfoTooltip": true,
     "unshortLinks": true
   },
+  "misc": {
+    "askOnTabVisibilityToggle": false,
+    "lockNotebookLayout": true
+  },
   "notifications": {
     "onAnyChannel": true
+  },
+  "ui": {
+    "lastSelectChannelTab": 0,
+    "lastSelectIrcConn": -1
   }
 }
