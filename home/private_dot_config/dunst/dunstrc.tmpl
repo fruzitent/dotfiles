@@ -1,0 +1,8 @@
+# @help: https://dunst-project.org/documentation/#DESCRIPTION
+
+[global]
+mouse_left_click = "close_current, open_url"
+
+{{ if eq .app_launcher "rofi" -}}
+dmenu = "rofi -dmenu"
+{{ end }}

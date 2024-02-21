@@ -16,6 +16,9 @@ editor = "helix"
 # - thunar
 file_manager = "thunar"
 
+# - dunst
+notification_agent = "dunst"
+
 # - alacritty
 term = "alacritty"
 
