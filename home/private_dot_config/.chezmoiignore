@@ -14,3 +14,4 @@
 {{ if ne .is_qbittorrent true -}} ./qBittorrent/       {{ end }}
 {{ if ne .is_spotify     true -}} ./spotify-flags.conf {{ end }}
 {{ if ne .is_spotify     true -}} ./spotify/           {{ end }}
+{{ if ne .is_tmux        true -}} ./tmux/              {{ end }}
