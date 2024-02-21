@@ -4,6 +4,20 @@ exec dbus-update-activation-environment --all --systemd
 exec gnome-keyring-daemon --components=secrets
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
+exec nm-applet
+exec playerctld daemon
+exec udiskie
+exec wl-paste --type image --watch cliphist store
+exec wl-paste --type text  --watch cliphist store
+exec /usr/lib/kdeconnectd
+
+exec ~/.local/bin/swww.sh ~/Pictures/Wallpapers
+
+exec chatterino
+exec discord
+exec telegram-desktop
+exec spotify
+
 bar {
     colors {
         background #323232
