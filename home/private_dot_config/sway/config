@@ -11,7 +11,8 @@ exec wl-paste --type image --watch cliphist store
 exec wl-paste --type text  --watch cliphist store
 exec /usr/lib/kdeconnectd
 
-exec ~/.local/bin/swww.sh ~/Pictures/Wallpapers
+exec swww-daemon
+exec swww.sh ~/Pictures/Wallpapers
 
 exec chatterino
 exec discord
@@ -20,8 +21,8 @@ exec spotify
 
 bar {
     colors {
-        background #323232
-        inactive_workspace #32323200 #32323200 #5c5c5c
+        background #323232ff
+        inactive_workspace #323232ff #323232ff #5c5c5c
         statusline #ffffff
     }
     position top
