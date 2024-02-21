@@ -41,6 +41,8 @@
     "hashicorp.terraform",
     /** mode-html */
     "bierner.lit-html",
+    /** mode-i3 */
+    "dcasella.i3",
     /** mode-java */
     "naco-siren.gradle-language",
     "vscjava.vscode-gradle",
