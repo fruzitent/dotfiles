@@ -1,3 +1,6 @@
+# - rofi
+app_launcher = "rofi"
+
 # - flexasio
 asio_driver = "flexasio"
 
