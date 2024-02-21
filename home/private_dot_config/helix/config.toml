@@ -1,1 +1,3 @@
+# @help: https://docs.helix-editor.com/configuration
+
 theme = "base16_transparent"

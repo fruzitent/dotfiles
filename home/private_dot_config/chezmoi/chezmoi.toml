@@ -1,3 +1,5 @@
+# @help: https://www.chezmoi.io/reference/configuration-file
+
 [git]
 autoCommit = true
 autoPush = false
