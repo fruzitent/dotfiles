@@ -1,19 +1,29 @@
-{{ if ne .app_launcher       "rofi"      -}} ./rofi/           {{ end }}
-{{ if ne .audio_server       "pipewire"  -}} ./pipewire/       {{ end }}
-{{ if ne .editor             "helix"     -}} ./helix/          {{ end }}
-{{ if ne .file_manager       "thunar"    -}} ./xfce4/          {{ end }}
-{{ if ne .notification_agent "dunst"     -}} ./dunst/          {{ end }}
-{{ if ne .term               "alacritty" -}} ./alacritty/      {{ end }}
-{{ if ne .visual             "vscode"    -}} ./code-flags.conf {{ end }}
-{{ if ne .visual             "vscode"    -}} ./Code/           {{ end }}
-{{ if ne .window_manager     "hyprland"  -}} ./hypr/           {{ end }}
-{{ if ne .window_manager     "sway"      -}} ./sway/           {{ end }}
+# @help: https://chezmoi.io/reference/special-files-and-directories/chezmoiignore
 
-{{ if ne .is_discord     true -}} ./discord/           {{ end }}
-{{ if ne .is_discord     true -}} ./discord-flags.conf {{ end }}
-{{ if ne .is_git         true -}} ./git/               {{ end }}
-{{ if ne .is_htop        true -}} ./htop/              {{ end }}
-{{ if ne .is_qbittorrent true -}} ./qBittorrent/       {{ end }}
-{{ if ne .is_spotify     true -}} ./spotify-flags.conf {{ end }}
-{{ if ne .is_spotify     true -}} ./spotify/           {{ end }}
-{{ if ne .is_tmux        true -}} ./tmux/              {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .app_launcher       "rofi"))      -}} ./rofi/           {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .audio_server       "pipewire"))  -}} ./pipewire/       {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .editor             "helix"))     -}} ./helix/          {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .file_manager       "thunar"))    -}} ./xfce4/          {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .notification_agent "dunst"))     -}} ./dunst/          {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .term               "alacritty")) -}} ./alacritty/      {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .visual             "vscode"))    -}} ./code-flags.conf {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .visual             "vscode"))    -}} ./Code/           {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .window_manager     "hyprland"))  -}} ./hypr/           {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .window_manager     "sway"))      -}} ./sway/           {{ end }}
+
+{{ if (or (ne .chezmoi.os "linux") (ne .is_discord     true)) -}} ./discord/           {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .is_discord     true)) -}} ./discord-flags.conf {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .is_htop        true)) -}} ./htop/              {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .is_qbittorrent true)) -}} ./qBittorrent/       {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .is_spotify     true)) -}} ./spotify-flags.conf {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .is_spotify     true)) -}} ./spotify/           {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .is_tmux        true)) -}} ./tmux/              {{ end }}
+
+{{ if ne .chezmoi.os "linux" -}} ./autostart/     {{ end }}
+{{ if ne .chezmoi.os "linux" -}} ./environment.d/ {{ end }}
+{{ if ne .chezmoi.os "linux" -}} ./gtk-3.0/       {{ end }}
+{{ if ne .chezmoi.os "linux" -}} ./qt6ct/         {{ end }}
+{{ if ne .chezmoi.os "linux" -}} ./systemd/       {{ end }}
+{{ if ne .chezmoi.os "linux" -}} ./xsettingsd/    {{ end }}
+
+{{ if ne .is_git true -}} ./git/ {{ end }}

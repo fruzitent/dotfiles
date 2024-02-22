@@ -1,7 +1,14 @@
 # @help: https://chezmoi.io/reference/special-files-and-directories/chezmoiignore
 
-{{ if ne .asio_driver "flexasio" -}} ./FlexASIO.toml {{ end }}
-{{ if ne .browser     "firefox"  -}} ./.mozilla/     {{ end }}
-{{ if ne .visual      "vscode"   -}} ./.vscode/      {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .browser "firefox")) -}} ./.mozilla/ {{ end }}
+
+{{ if ne .chezmoi.os "linux" -}} ./.gtkrc-2.0 {{ end }}
+{{ if ne .chezmoi.os "linux" -}} ./.zshrc     {{ end }}
+
+{{ if (or (ne .chezmoi.os "windows") (ne .asio_driver "flexasio")) -}} ./FlexASIO.toml {{ end }}
+
+{{ if ne .chezmoi.os "windows" -}} ./.wslconfig {{ end }}
+
+{{ if ne .visual  "vscode"  -}} ./.vscode/ {{ end }}
 
 {{ if ne .is_act true -}} ./.actrc {{ end }}
