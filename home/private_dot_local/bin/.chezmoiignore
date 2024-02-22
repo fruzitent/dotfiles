@@ -1,4 +1,7 @@
 # @help: https://chezmoi.io/reference/special-files-and-directories/chezmoiignore
 
-{{ if ne .chezmoi.os "linux"   -}} ./*.sh  {{ end }}
+{{ if ne .chezmoi.os "linux"   -}} ./*.sh    {{ end }}
+{{ if ne .chezmoi.os "linux"   -}} ./rootmoi {{ end }}
+
+{{ if ne .chezmoi.os "windows" -}} ./*.bat {{ end }}
 {{ if ne .chezmoi.os "windows" -}} ./*.ps1 {{ end }}
