@@ -1,11 +1,12 @@
 [connection]
 id=asus_gt-ax11000
-uuid=6c17e153-aa64-4a41-bbc9-b54358fd6b49
+uuid=6f7cbedf-55c5-426e-8464-ba2af36a51e8
 type=wifi
 interface-name=wlp1s0
-timestamp=1708465933
+timestamp=1708610780
 
 [wifi]
+band=a
 mode=infrastructure
 ssid=asus_gt-ax11000
 
