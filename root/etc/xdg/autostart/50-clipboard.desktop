@@ -1,4 +1,0 @@
-[Desktop Entry]
-Exec=wl-paste --type image --watch cliphist store && wl-paste --type text --watch cliphist store
-Name=clipboard
-Type=Application

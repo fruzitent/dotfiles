@@ -1,0 +1,4 @@
+[Desktop Entry]
+Exec=wl-paste --type text --watch cliphist store
+Name=clipboard-text
+Type=Application

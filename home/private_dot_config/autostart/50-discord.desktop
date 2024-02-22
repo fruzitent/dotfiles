@@ -1,4 +1,4 @@
 [Desktop Entry]
-Exec=discord
+Exec=discord --ozone-platform-hint=wayland
 Name=discord
 Type=Application

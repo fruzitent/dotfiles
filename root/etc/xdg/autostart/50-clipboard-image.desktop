@@ -1,0 +1,4 @@
+[Desktop Entry]
+Exec=wl-paste --type image --watch cliphist store
+Name=clipboard-image
+Type=Application

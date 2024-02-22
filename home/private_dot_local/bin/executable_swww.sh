@@ -3,7 +3,7 @@
 set -exuo pipefail
 
 directory=${1}
-swww query || swww init
+swww query # || swww init
 
 while true; do
   next_file=$(find "${directory}" -type f | shuf --head-count 1)
