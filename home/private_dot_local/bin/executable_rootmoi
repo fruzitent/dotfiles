@@ -2,6 +2,7 @@
 
 set -euxo pipefail
 
+# @help: https://github.com/twpayne/chezmoi/discussions/1510
 sudo chezmoi \
     --cache "${XDG_CACHE_HOME}/chezmoi/root" \
     --destination "/" \
