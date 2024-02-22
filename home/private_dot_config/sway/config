@@ -1,23 +1,8 @@
+# @help: https://raw.githubusercontent.com/swaywm/sway/master/sway/sway.5.scd
+
+exec dex --autostart
+
 output eDP-1 scale 0.75
-
-exec dbus-update-activation-environment --all --systemd
-exec gnome-keyring-daemon --components=secrets
-exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-
-exec nm-applet
-exec playerctld daemon
-exec udiskie
-exec wl-paste --type image --watch cliphist store
-exec wl-paste --type text  --watch cliphist store
-exec /usr/lib/kdeconnectd
-
-exec swww-daemon
-exec swww.sh ~/Pictures/Wallpapers
-
-exec chatterino
-exec discord
-exec telegram-desktop
-exec spotify
 
 bar {
     colors {
