@@ -1,2 +1,4 @@
-{{ if ne .chezmoi.osRelease.id "arch" -}} ./hostapd/  {{ end }}
-{{ if ne .chezmoi.osRelease.id "arch" -}} ./paru-bin/ {{ end }}
+# @help: https://chezmoi.io/reference/special-files-and-directories/chezmoiignore
+
+{{ if (or (ne .chezmoi.os "linux") (ne .chezmoi.osRelease.id "arch")) -}} ./hostapd/  {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .chezmoi.osRelease.id "arch")) -}} ./paru-bin/ {{ end }}
