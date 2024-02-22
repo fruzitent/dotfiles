@@ -16,6 +16,8 @@ bar {
 
 for_window [shell="xwayland"] title_format "[XWayland] %title"
 
+focus_follows_mouse always
+
 input type:touchpad {
     natural_scroll enabled
     tap enabled
