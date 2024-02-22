@@ -1,4 +1,0 @@
-[Desktop Entry]
-Exec=swww-daemon && swww.sh ${XDG_PICTURES_DIR}/Wallpapers
-Name=swww
-Type=Application

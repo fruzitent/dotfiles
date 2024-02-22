@@ -1,4 +1,4 @@
 [Desktop Entry]
-Exec=playerctld daemon
+Exec=playerctld
 Name=playerctl
 Type=Application

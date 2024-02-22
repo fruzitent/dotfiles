@@ -10,6 +10,7 @@
 {{ if ne .window_manager     "sway"      -}} ./sway/           {{ end }}
 
 {{ if ne .is_discord     true -}} ./discord/           {{ end }}
+{{ if ne .is_discord     true -}} ./discord-flags.conf {{ end }}
 {{ if ne .is_git         true -}} ./git/               {{ end }}
 {{ if ne .is_htop        true -}} ./htop/              {{ end }}
 {{ if ne .is_qbittorrent true -}} ./qBittorrent/       {{ end }}

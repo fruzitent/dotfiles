@@ -1,0 +1,6 @@
+[Desktop Entry]
+# TODO: expand ${XDG_PICTURE_DIR}
+# TODO: kill the script when session ends
+Exec=swww.sh ~/Pictures/Wallpapers
+Name=swww
+Type=Application

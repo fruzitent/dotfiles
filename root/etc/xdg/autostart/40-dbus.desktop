@@ -1,4 +1,0 @@
-[Desktop Entry]
-Exec=dbus-update-activation-environment --all --systemd
-Name=dbus
-Type=Application
