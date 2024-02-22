@@ -1,4 +1,4 @@
 [Desktop Entry]
-Exec=gnome-keyring-daemon --start --components=secrets
+Exec=gnome-keyring-daemon --login --components=secrets
 Name=keyring
 Type=Application
