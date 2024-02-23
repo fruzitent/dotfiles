@@ -7,6 +7,7 @@
 
 {{ if (or (ne .chezmoi.os "windows") (ne .asio_driver "flexasio")) -}} ./FlexASIO.toml {{ end }}
 
+{{ if ne .chezmoi.os "windows" -}} ./AppData/   {{ end }}
 {{ if ne .chezmoi.os "windows" -}} ./.wslconfig {{ end }}
 
 {{ if ne .visual  "vscode"  -}} ./.vscode/ {{ end }}

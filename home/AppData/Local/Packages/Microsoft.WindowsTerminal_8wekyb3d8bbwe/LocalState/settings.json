@@ -1,0 +1,64 @@
+{
+  "$help": "https://learn.microsoft.com/windows/terminal",
+  "$schema": "https://raw.githubusercontent.com/microsoft/terminal/main/doc/cascadia/profiles.schema.json",
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+  "newTabMenu": [{ "type": "remainingProfiles" }],
+  "profiles": {
+    "defaults": {
+      "adjustIndistinguishableColors": "always",
+      "colorScheme": {
+        "dark": "Tango Dark",
+        "light": "Tango Light"
+      },
+      "elevate": true,
+      "font": { "face": "MonaspiceNe Nerd Font" },
+      "opacity": 80,
+      "useAcrylic": true,
+      "useAtlasEngine": true
+    },
+    "list": [
+      {
+        "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+        "hidden": false,
+        "name": "PowerShell",
+        "source": "Windows.Terminal.PowershellCore"
+      },
+      {
+        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": true,
+        "name": "Windows PowerShell"
+      },
+      {
+        "commandline": "%SystemRoot%\\System32\\cmd.exe",
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "hidden": true,
+        "name": "Command Prompt"
+      },
+      {
+        "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+        "hidden": false,
+        "name": "Ubuntu",
+        "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+      },
+      {
+        "guid": "{d744cab3-2dfe-598f-acc8-17a1b9f33894}",
+        "hidden": false,
+        "name": "Developer PowerShell for VS 2022",
+        "source": "Windows.Terminal.VisualStudio"
+      },
+      {
+        "guid": "{5faaee41-e6ad-5588-a982-f61a577d69e7}",
+        "hidden": true,
+        "name": "Developer Command Prompt for VS 2022",
+        "source": "Windows.Terminal.VisualStudio"
+      }
+    ]
+  },
+  "schemes": [],
+  "theme": "system",
+  "themes": [],
+  "useAcrylicInTabRow": true
+}
