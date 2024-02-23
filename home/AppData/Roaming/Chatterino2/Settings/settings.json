@@ -1,0 +1,54 @@
+{
+  "appearance": {
+    "badges": {
+      "chatterino": false,
+      "ffz": false,
+      "predictions": false,
+      "seventv": false,
+      "vanity": false
+    },
+    "currentFontFamily": "Segoe UI",
+    "currentFontSize": 11,
+    "messages": {
+      "findAllUsernames": true,
+      "showLastMessageIndicator": true,
+      "showMessageLength": true
+    },
+    "showTabCloseButton": false,
+    "splitheader": {
+      "showUptime": true,
+      "showViewerCount": true
+    },
+    "tabVisibility": 1,
+    "theme": {
+      "name": "Dark"
+    },
+    "thumbnailSize": 200,
+    "uiScale2": 1
+  },
+  "behaviour": {
+    "autorun": true
+  },
+  "emotes": {
+    "showUnlistedSevenTVEmotes": true
+  },
+  "highlighting": {
+    "alwaysPlaySound": true,
+    "users": []
+  },
+  "links": {
+    "linkInfoTooltip": true,
+    "unshortLinks": true
+  },
+  "misc": {
+    "askOnTabVisibilityToggle": false,
+    "lockNotebookLayout": true
+  },
+  "notifications": {
+    "onAnyChannel": true
+  },
+  "ui": {
+    "lastSelectChannelTab": 0,
+    "lastSelectIrcConn": -1
+  }
+}

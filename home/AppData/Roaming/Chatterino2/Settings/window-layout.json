@@ -1,0 +1,21 @@
+{
+  "windows": [
+    {
+      "tabs": [
+        {
+          "splits2": {
+            "data": {
+              "type": "mentions"
+            },
+            "flexh": 1,
+            "flexv": 1,
+            "type": "split"
+          }
+        }
+      ],
+      "type": "main",
+      "x": 0,
+      "y": 0
+    }
+  ]
+}
