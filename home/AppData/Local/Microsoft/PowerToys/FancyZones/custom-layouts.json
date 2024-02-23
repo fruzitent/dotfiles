@@ -1,0 +1,55 @@
+{
+  "custom-layouts": [
+    {
+      "uuid": "{603F7C78-492E-425C-BA70-647F421EF831}",
+      "name": "x1",
+      "type": "grid",
+      "info": {
+        "rows": 1,
+        "columns": 2,
+        "rows-percentage": [10000],
+        "columns-percentage": [8500, 1500],
+        "cell-child-map": [[0, 1]],
+        "show-spacing": true,
+        "spacing": 0,
+        "sensitivity-radius": 20
+      }
+    },
+    {
+      "uuid": "{E6474693-255C-4CDC-BB60-E914AEC94388}",
+      "name": "x2",
+      "type": "grid",
+      "info": {
+        "rows": 2,
+        "columns": 2,
+        "rows-percentage": [5000, 5000],
+        "columns-percentage": [4200, 5800],
+        "cell-child-map": [
+          [0, 2],
+          [1, 2]
+        ],
+        "show-spacing": true,
+        "spacing": 0,
+        "sensitivity-radius": 20
+      }
+    },
+    {
+      "uuid": "{6E5EBC88-2FC8-4230-98BA-2BE401BF2A32}",
+      "name": "x3",
+      "type": "grid",
+      "info": {
+        "rows": 2,
+        "columns": 3,
+        "rows-percentage": [4200, 5800],
+        "columns-percentage": [3333, 3334, 3333],
+        "cell-child-map": [
+          [0, 1, 2],
+          [3, 3, 3]
+        ],
+        "show-spacing": true,
+        "spacing": 0,
+        "sensitivity-radius": 20
+      }
+    }
+  ]
+}
