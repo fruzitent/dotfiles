@@ -22,6 +22,7 @@
 {{ if ne .chezmoi.os "linux" -}} ./autostart/     {{ end }}
 {{ if ne .chezmoi.os "linux" -}} ./environment.d/ {{ end }}
 {{ if ne .chezmoi.os "linux" -}} ./gtk-3.0/       {{ end }}
+{{ if ne .chezmoi.os "linux" -}} ./qt5ct/         {{ end }}
 {{ if ne .chezmoi.os "linux" -}} ./qt6ct/         {{ end }}
 {{ if ne .chezmoi.os "linux" -}} ./systemd/       {{ end }}
 {{ if ne .chezmoi.os "linux" -}} ./xsettingsd/    {{ end }}
