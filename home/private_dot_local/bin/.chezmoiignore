@@ -2,6 +2,7 @@
 
 {{ if ne .chezmoi.os "linux"   -}} ./*.sh    {{ end }}
 {{ if ne .chezmoi.os "linux"   -}} ./rootmoi {{ end }}
+{{ if ne .chezmoi.os "linux"   -}} ./spotx   {{ end }}
 
 {{ if ne .chezmoi.os "windows" -}} ./*.bat {{ end }}
 {{ if ne .chezmoi.os "windows" -}} ./*.ps1 {{ end }}
