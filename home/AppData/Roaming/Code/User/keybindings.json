@@ -1,0 +1,26 @@
+// @help: https://code.visualstudio.com/docs/getstarted/keybindings
+[
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.terminal.clear",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "editor.action.smartSelect.shrink",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+r",
+    "command": "extension.multiCommand.execute",
+    "args": {
+      "sequence": ["notebook.clearAllCellsOutputs", "jupyter.notebookeditor.restartkernel", "notebook.execute"]
+    },
+    "when": "notebookEditable && activeEditor == 'workbench.editor.notebook'"
+  }
+]
