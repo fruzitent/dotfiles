@@ -1,0 +1,135 @@
+{
+  "$help": "https://code.visualstudio.com/docs/getstarted/settings#_default-settings",
+  /** ai */
+  "github.copilot.editor.enableCodeActions": false,
+  /** c++ */
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "cmake.allowUnsupportedPresetsVersions": true,
+  "cmake.automaticReconfigure": false,
+  "cmake.configureOnOpen": false,
+  "cmake.options.statusBarVisibility": "visible",
+  "cmake.showOptionsMovedNotification": false,
+  "makefile.configureOnOpen": false,
+  /** formatting */
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "[c][cpp]": {
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+  },
+  "[css][less][scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript][javascriptreact][json][jsonc][typescript][typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "ReneSaarsoo.sql-formatter-vsc"
+  },
+  "SQL-Formatter-VSCode.dataTypeCase": "lower",
+  "SQL-Formatter-VSCode.denseOperators": true,
+  "SQL-Formatter-VSCode.dialect": "postgresql",
+  "SQL-Formatter-VSCode.expressionWidth": 120,
+  "SQL-Formatter-VSCode.functionCase": "lower",
+  "SQL-Formatter-VSCode.identifierCase": "lower",
+  "SQL-Formatter-VSCode.keywordCase": "lower",
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  /** java */
+  "java.autobuild.enabled": false,
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.server.launchMode": "LightWeight",
+  /** jupyter */
+  "jupyter.askForKernelRestart": false,
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "jupyter.themeMatplotlibPlots": true,
+  "notebook.outline.showCodeCells": true,
+  /** latex */
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.outDir": "%WORKSPACE_FOLDER%/out",
+  "latex-workshop.latex.recipes": [{ "name": "latexmk", "tools": ["latexmk"] }],
+  "latex-workshop.latex.tools": [
+    {
+      "args": ["-pdflua", "-shell-escape", "-outdir=%OUTDIR%", "-cd", "%DOC%"],
+      "command": "latexmk",
+      "name": "latexmk"
+    }
+  ],
+  /** markdown */
+  "markdown.updateLinksOnFileMove.enabled": "prompt",
+  "markdown.validate.enabled": true,
+  /** remote development */
+  // "dev.containers.dockerPath": "podman",
+  // "docker.dockerPath": "podman",
+  // "docker.environment": {
+  //   "DOCKER_HOST": "unix://$XDG_RUNTIME_DIR/podman/podman.sock"
+  // },
+  "docker.languageserver.formatter.ignoreMultilineInstructions": true,
+  "remote.SSH.remoteServerListenOnSocket": false,
+  /** schemas */
+  "json.schemaDownload.enable": true,
+  /** shell */
+  "powershell.integratedConsole.showOnStartup": false,
+  /** telemetry */
+  "dotnetAcquisitionExtension.enableTelemetry": false,
+  "gitlens.telemetry.enabled": false,
+  "redhat.telemetry.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  /** ui */
+  "catppuccin.accentColor": "sapphire",
+  "editor.accessibilitySupport": "off",
+  "editor.fontFamily": "'MonaspiceNe Nerd Font', 'monospace'",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+  "editor.fontSize": 14,
+  "editor.inlayHints.enabled": "on",
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  "explorer.excludeGitIgnore": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {},
+  "explorer.openEditors.visible": 9,
+  "gitlens.graph.layout": "editor",
+  "gitlens.views.searchAndCompare.files.layout": "tree",
+  "scm.defaultViewMode": "tree",
+  "window.autoDetectColorScheme": true,
+  "window.commandCenter": true,
+  "window.newWindowDimensions": "offset",
+  "window.title": "${folderName}",
+  "window.titleBarStyle": "custom", // TODO: https://github.com/microsoft/vscode/issues/184124
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "workbench.startupEditor": "none",
+  /** vsc */
+  "git.autofetch": true,
+  "git.confirmSync": false
+}
