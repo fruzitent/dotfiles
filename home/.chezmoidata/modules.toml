@@ -5,6 +5,7 @@ app_launcher = "rofi"
 asio_driver = "flexasio"
 
 # - pipewire
+# - voicemeeter
 audio_server = "pipewire"
 
 # - chrome

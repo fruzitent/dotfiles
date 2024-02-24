@@ -1,4 +1,6 @@
 # @help: https://chezmoi.io/reference/special-files-and-directories/chezmoiignore
 
+{{ if (or (ne .chezmoi.os "windows") (ne .audio_server "voicemeeter")) -}} ./Voicemeeter/ {{ end }}
+
 {{ if ne .chezmoi.os "windows" -}} ./PowerShell/        {{ end }}
 {{ if ne .chezmoi.os "windows" -}} ./WindowsPowerShell/ {{ end }}

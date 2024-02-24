@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VBAudioVoicemeeterSettings>
+  <VoiceMeeterDeviceConfiguration>
+    <OptionDev mme="2048" wdm="2048" ks="2048" asio="1024" srasio="0" msA1="0.00" msA2="0.00" />
+    <OutputDev index="1" type="1" name="Headphones (Realtek(R) Audio)" />
+  </VoiceMeeterDeviceConfiguration>
+</VBAudioVoicemeeterSettings>
