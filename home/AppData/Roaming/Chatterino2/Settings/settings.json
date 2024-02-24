@@ -9,8 +9,12 @@
     },
     "currentFontFamily": "Segoe UI",
     "currentFontSize": 11,
+    "hidePreferencesButton": true,
+    "hideUserButton": true,
     "messages": {
+      "alternateMessageBackground": true,
       "findAllUsernames": true,
+      "separateMessages": true,
       "showLastMessageIndicator": true,
       "showMessageLength": true
     },
@@ -21,7 +25,9 @@
     },
     "tabVisibility": 1,
     "theme": {
-      "name": "Dark"
+      "darkSystem": "Dark",
+      "lightSystem": "White",
+      "name": "System"
     },
     "thumbnailSize": 200,
     "uiScale2": 1
@@ -30,7 +36,12 @@
     "autorun": true
   },
   "emotes": {
-    "showUnlistedSevenTVEmotes": true
+    "removeSpacesBetweenEmotes": true,
+    "showUnlistedSevenTVEmotes": true,
+    "stackBits": true
+  },
+  "experiments": {
+    "useSmartEmoteCompletion": true
   },
   "highlighting": {
     "alwaysPlaySound": true,
