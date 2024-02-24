@@ -3,6 +3,7 @@ is_chatterino = true
 is_discord = true
 is_git = true
 is_htop = true
+is_obs = true
 is_qbittorrent = true
 is_spotify = true
 is_tmux = true

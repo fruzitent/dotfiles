@@ -1,0 +1,64 @@
+{
+  "AuxAudioDevice1": {
+    "enabled": true,
+    "id": "pulse_input_capture",
+    "muted": true,
+    "name": "Mic/Aux",
+    "settings": {
+      "device_id": "default"
+    },
+    "uuid": "05983007-0f05-4d63-a3ef-2ff512ea3790",
+    "volume": 0
+  },
+  "current_scene": "Desktop",
+  "DesktopAudioDevice1": {
+    "enabled": true,
+    "id": "pulse_output_capture",
+    "muted": false,
+    "name": "Desktop Audio",
+    "settings": {
+      "device_id": "alsa_output.pci-0000_03_00.6.analog-stereo.monitor"
+    },
+    "uuid": "8960c9a4-dcfa-4a90-af50-ef6bc0e23e51",
+    "volume": 1
+  },
+  "name": "main",
+  "sources": [
+    {
+      "enabled": true,
+      "id": "scene",
+      "muted": false,
+      "name": "Desktop",
+      "settings": {
+        "id_counter": 1,
+        "items": [
+          {
+            "bounds_type": 2,
+            "bounds": { "x": 1920, "y": 1080 },
+            "id": 1,
+            "locked": true,
+            "name": "Screen Capture (PipeWire)",
+            "pos": { "x": 0, "y": 0 },
+            "rot": 0,
+            "scale": { "x": 1, "y": 1 },
+            "source_uuid": "8abeea5e-8359-4f12-be8e-1448da43dc91",
+            "visible": true
+          }
+        ]
+      },
+      "uuid": "9d535b5c-383c-4dbb-91f1-7979396c2a4c",
+      "volume": 1
+    },
+    {
+      "enabled": true,
+      "id": "pipewire-desktop-capture-source",
+      "muted": false,
+      "name": "Screen Capture (PipeWire)",
+      "settings": {
+        "RestoreToken": "e0557ad6-b98e-4eb2-99e8-fb74da65423c"
+      },
+      "uuid": "8abeea5e-8359-4f12-be8e-1448da43dc91",
+      "volume": 1
+    }
+  ]
+}

@@ -6,5 +6,6 @@
 
 {{ if (or (ne .chezmoi.os "windows") (ne .is_chatterino  true)) -}} ./Chatterino2/ {{ end }}
 {{ if (or (ne .chezmoi.os "windows") (ne .is_discord     true)) -}} ./discord/     {{ end }}
+{{ if (or (ne .chezmoi.os "windows") (ne .is_obs         true)) -}} ./obs-studio/  {{ end }}
 {{ if (or (ne .chezmoi.os "windows") (ne .is_qbittorrent true)) -}} ./qBittorrent/ {{ end }}
 {{ if (or (ne .chezmoi.os "windows") (ne .is_spotify     true)) -}} ./Spotify/     {{ end }}

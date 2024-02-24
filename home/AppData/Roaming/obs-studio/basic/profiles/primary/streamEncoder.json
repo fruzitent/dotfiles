@@ -1,0 +1,4 @@
+{
+  "bitrate": 8000,
+  "rate_control": "CBR"
+}

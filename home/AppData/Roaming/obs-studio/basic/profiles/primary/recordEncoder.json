@@ -1,0 +1,5 @@
+{
+  "cqp": 20,
+  "preset": "balanced",
+  "rate_control": "CQP"
+}

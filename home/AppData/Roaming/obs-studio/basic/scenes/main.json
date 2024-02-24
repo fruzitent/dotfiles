@@ -1,0 +1,64 @@
+{
+  "AuxAudioDevice1": {
+    "enabled": true,
+    "id": "wasapi_input_capture",
+    "muted": true,
+    "name": "Mic/Aux",
+    "settings": {
+      "device_id": "{0.0.1.00000000}.{7fe3a73f-7cab-4417-846f-36d0c315aef4}"
+    },
+    "uuid": "65b1fa38-cc06-4a3b-bbbd-16248a077f1b",
+    "volume": 0
+  },
+  "current_scene": "Desktop",
+  "DesktopAudioDevice1": {
+    "enabled": true,
+    "id": "wasapi_output_capture",
+    "muted": false,
+    "name": "Desktop Audio",
+    "settings": {
+      "device_id": "default"
+    },
+    "uuid": "3a5a6acc-1d6b-440d-8847-b13b061ce9e3",
+    "volume": 1
+  },
+  "name": "main",
+  "sources": [
+    {
+      "enabled": true,
+      "id": "scene",
+      "muted": false,
+      "name": "Desktop",
+      "settings": {
+        "id_counter": 1,
+        "items": [
+          {
+            "bounds_type": 2,
+            "bounds": { "x": 1920, "y": 1080 },
+            "id": 1,
+            "locked": true,
+            "name": "Display Capture",
+            "pos": { "x": 0, "y": 0 },
+            "rot": 0,
+            "scale": { "x": 1, "y": 1 },
+            "source_uuid": "e495f233-970b-4106-900b-ed3821abc573",
+            "visible": true
+          }
+        ]
+      },
+      "uuid": "fca8fb01-596e-4688-a6c2-f933551f45fd",
+      "volume": 1
+    },
+    {
+      "enabled": true,
+      "id": "monitor_capture",
+      "muted": false,
+      "name": "Display Capture",
+      "settings": {
+        "monitor_id": "\\\\?\\DISPLAY#AUO21ED#5&2fa0ca2d&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}"
+      },
+      "uuid": "e495f233-970b-4106-900b-ed3821abc573",
+      "volume": 1
+    }
+  ]
+}
