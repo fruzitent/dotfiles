@@ -1,8 +1,7 @@
-BROWSER="{{ .browser }}"
+{{ if eq .browser "chrome"  -}} BROWSER="google-chrome-stable" {{ end }}
+{{ if eq .browser "firefox" -}} BROWSER="firefox"              {{ end }}
+{{ if eq .visual  "vscode"  -}} VISUAL="code --wait"           {{ end }}
+
 EDITOR="{{ .editor }}"
 HISTFILE="$XDG_DATA_HOME/history"
 TERM="{{ .term }}"
-
-{{ if eq .visual "vscode" -}}
-VISUAL="code --wait"
-{{ end }}
