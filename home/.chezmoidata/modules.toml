@@ -7,6 +7,7 @@ asio_driver = "flexasio"
 # - pipewire
 audio_server = "pipewire"
 
+# - chrome
 # - firefox
 browser = "firefox"
 
