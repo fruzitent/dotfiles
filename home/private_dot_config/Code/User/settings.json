@@ -1,5 +1,8 @@
 {
   "$help": "https://code.visualstudio.com/docs/getstarted/settings#_default-settings",
+  /** android */
+  "emulator.emulatorPathLinux": "$ANDROID_HOME/emulator",
+  "emulator.emulatorPathWindows": "%ANDROID_HOME%\\emulator",
   /** ai */
   "github.copilot.editor.enableCodeActions": false,
   /** c++ */
