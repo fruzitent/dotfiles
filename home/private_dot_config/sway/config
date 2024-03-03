@@ -15,12 +15,5 @@ bar {
     status_command while date +'%Y-%m-%d %I:%M:%S %p'; do sleep 1; done
 }
 
-focus_follows_mouse always
-
-input type:touchpad {
-    natural_scroll enabled
-    tap enabled
-}
-
 include /etc/sway/config.d/*
 include $XDG_CONFIG_HOME/sway/config.d/*
