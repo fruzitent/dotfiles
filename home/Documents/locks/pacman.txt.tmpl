@@ -1,0 +1,273 @@
+# @help: https://wiki.archlinux.org/title/Pacman
+
+# @see: https://archlinux.org/packages
+# @see: https://aur.archlinux.org/packages
+# @see: https://archive.archlinux.org
+
+base 3-2
+base-devel 1-1
+devtools 1:1.1.1-1
+
+# archivator
+gzip 1.13-2
+tar 1.35-2
+unzip 6.0-20
+zip 3.0-11
+
+# audio-firmware
+{{ if eq .audio_server "pipewire" -}} pipewire 1:1.0.3-1       {{ end }}
+{{ if eq .audio_server "pipewire" -}} pipewire-alsa 1:1.0.3-1  {{ end }}
+{{ if eq .audio_server "pipewire" -}} pipewire-audio 1:1.0.3-1 {{ end }}
+{{ if eq .audio_server "pipewire" -}} pipewire-jack 1:1.0.3-1  {{ end }}
+{{ if eq .audio_server "pipewire" -}} pipewire-pulse 1:1.0.3-1 {{ end }}
+{{ if eq .audio_server "pipewire" -}} wireplumber 0.4.17-1     {{ end }}
+
+# audio-tools
+pavucontrol 1:5.0+r64+geba9ca6-1
+playerctl 2.4.1-3
+
+# boot
+efibootmgr 18-2
+efitools 1.9.2-5
+mkinitcpio 37.3-1
+sbctl 0.12-1
+sbsigntools 0.9.5-1
+tpm2-tss 4.0.1-1
+
+# clipboard
+cliphist 1:0.5.0-1
+wl-clipboard 1:2.2.1-1
+
+# compositor
+xorg-xeyes 1.3.0-1
+xorg-xwayland 23.2.4-2
+
+{{ if eq .window_manager "hyprland" -}} hyprland 0.35.0-2 {{ end }}
+{{ if eq .window_manager "sway"     -}} sway 1:1.8.1-5    {{ end }}
+
+# credentials
+bitwarden 2024.2.1-1
+gnupg 2.4.4-1
+openssh 9.6p1-3
+seahorse 1:43.0-2
+
+# font
+nerd-fonts 3.1.1-1
+noto-fonts 1:24.3.1-1
+noto-fonts-cjk 20230817-1
+noto-fonts-emoji 1:2.042-1
+terminus-font 4.49.1-6
+
+# fs
+btrfs-progs 6.7.1-1
+dosfstools 4.2-3
+gvfs 1.52.2-2
+gvfs-mtp 1.52.2-2
+samba 4.19.2-1
+udiskie 2.5.2-1
+usbutils 017-1
+
+# idle
+{{ if eq .window_manager "hyprland" -}} hypridle 0.1.1-1 {{ end }}
+{{ if eq .window_manager "sway"     -}} swayidle 1.8.0-1 {{ end }}
+
+# io
+iperf3 3.16-1
+latencytop 1:0.5.0-1
+network-manager-applet 1.36.0-1
+networkmanager 1.46.0-2
+nm-connection-editor 1.36.0-1
+rclone 1.65.2-1
+rsync 3.2.7-6
+speedtest-cli 2.1.3-7
+wireshark-qt 4.2.3-1
+
+# io-bt
+bluez 5.72-2
+bluez-utils 5.72-2
+
+# io-wifi
+openssl-1.0 1.0.2.u-6
+wpa_supplicant 2:2.6-2
+
+# kernel
+linux 6.7.8.arch1-1
+linux-headers 6.7.8.arch1-1
+
+# lock
+{{ if eq .window_manager "hyprland" -}} hyprlock 0.1.0-2 {{ end }}
+{{ if eq .window_manager "sway"     -}} swaylock 1.7.2-1 {{ end }}
+
+# man
+man-db 2.12.0-1
+
+# mode-android
+android-studio 2023.2.1.23-1
+android-tools 34.0.4-4
+scrcpy 2.3.1-1
+
+# mode-c
+ccache 4.9.1-1
+clang 16.0.6-2
+cmake 3.28.3-1
+gcc 13.2.1-5
+meson 1.3.2-1
+mold 2.4.1-1
+
+# mode-docker
+docker 1:25.0.3-1
+docker-buildx 0.13.0-1
+docker-compose 2.24.7-1
+hadolint-bin 2.12.0-2
+
+{{ if eq .is_act true -}} act-bin 0.2.60-0 {{ end }}
+
+# mode-go
+go 2:1.22.0-1
+gopls 0.15.1-1
+
+# mode-java
+gradle 8.6-1
+jdk-openjdk 21.0.2.u13-3
+jdk21-jetbrains-bin 21.0.2b375.1-1
+
+# mode-js
+nodejs 21.6.2-1
+npm 10.5.0-1
+wabt 1.0.34-1
+
+# mode-k8s
+minikube 1.32.0-1
+helm 3.14.0-1
+kubectl 1.29.2-1
+
+# mode-py
+python 3.11.8-1
+
+# mode-rs
+rustup 1.26.0-5
+
+# mode-shell
+shellcheck-bin 0.9.0-1
+shfmt 3.7.0-1
+zsh 5.9-4
+
+# mode-terraform
+opentofu-bin v1.6.2-1
+
+{{ if eq .term "alacritty" -}} alacritty 0.13.1-1 {{ end }}
+
+{{ if eq .is_tmux true -}} tmux 3.4-4 {{ end }}
+
+# portal
+xdg-desktop-portal-gnome 45.1-1
+xdg-desktop-portal-hyprland 1.3.1-5
+
+# power
+cpupower 6.7-2
+power-profiles-daemon 0.13-1
+powertop 2.15-1
+realtime-privileges 4-2
+
+# recording
+grimblast-git r89.fe26a90-1
+
+{{ if eq .is_obs true -}} obs-studio 30.0.2-4 {{ end }}
+
+# system
+curl 8.6.0-3
+evtest 1.35-1
+flatpak 1:1.15.6-2
+less 1:643-1
+paru 2.0.1-1
+swww 0.8.2-2
+wget 1.21.4-1
+xdg-user-dirs 0.18-1
+
+{{ if eq .app_launcher       "rofi"     -}} rofi-lbonn-wayland 1.7.5+wayland3-1 {{ end }}
+{{ if eq .file_manager       "nautilus" -}} nautilus 45.2.1-1                   {{ end }}
+{{ if eq .file_manager       "thunar"   -}} thunar 4.18.10-1                    {{ end }}
+{{ if eq .notification_agent "dunst"    -}} dunst 1.10.0-1                      {{ end }}
+
+{{ if eq .is_git  true -}} git 2.44.0-1    {{ end }}
+{{ if eq .is_git  true -}} git-lfs 3.5.0-1 {{ end }}
+
+# theme
+adwaita-qt-git 1.4.1.r29.g0a77436-1
+gnome-themes-extra 3.28+r6+g45b1d457-1
+nwg-look 0.2.7-1
+qt5ct 1.8-1
+qt6ct 0.9-5
+
+# thumbnail
+ffmpegthumbnailer 2.2.2-5
+tumbler 4.18.1-1
+
+# user
+chezmoi 2.47.1-1
+ffmpeg 2:6.1.1-5
+jq 1.7.1-1
+kdeconnect 24.02.0-2
+qimgv 1.0.3+alpha+94+ge2675f13-1
+songrec 0.4.2-1
+telegram-desktop 4.15.0-2
+vlc-git 4.0.0.r28025.g2bcff8a393-1
+yt-dlp 2023.12.30-1
+
+{{ if eq .browser "chrome"  -}} google-chrome 122.0.6261.111-1  {{ end }}
+{{ if eq .browser "firefox" -}} firefox 123.0.1-1               {{ end }}
+{{ if eq .editor  "helix"   -}} helix 23.10-1                   {{ end }}
+{{ if eq .visual  "vscode"  -}} visual-studio-code-bin 1.87.1-1 {{ end }}
+
+{{ if eq .is_chatterino  true -}} chatterino2-git 2.4.5.r280.g9151446-1  {{ end }}
+{{ if eq .is_discord     true -}} discord-electron-openasar 0.0.44+827-1 {{ end }}
+{{ if eq .is_htop        true -}} htop 3.3.0-1                           {{ end }}
+{{ if eq .is_qbittorrent true -}} qbittorrent 4.6.3-1                    {{ end }}
+{{ if eq .is_spotify     true -}} spotify 1:1.2.31.1205-2                {{ end }}
+
+# v12n
+qemu-full 8.2.0-3
+virt-manager 4.1.0-2
+virtio-win 0.1.248.1-1
+wine 9.3-1
+wine-gecko 2.47.4-1
+wine-mono 9.0.0-1
+winetricks 20240105-1
+
+# vendor
+amd-ucode 20240220.97b693d2-1
+linux-firmware 20240220.97b693d2-1
+mkinitcpio-firmware 1.4.0-1
+
+# video-firmware
+amdvlk 2024.Q1.2-1
+libva-mesa-driver 1:24.0.2-2
+mesa 1:24.0.2-2
+mesa-vdpau 1:24.0.2-2
+opencl-rusticl-mesa 1:24.0.2-2
+rocm-opencl-runtime 6.0.0-1
+vulkan-radeon 1:24.0.2-2
+
+# video-tools
+amdgpu_top-bin 0.7.0-1
+brightnessctl 0.5.1-2
+clinfo 3.0.21.02.21-1
+libva-utils 2.20.1-1
+mesa-utils 9.0.0-3
+vdpauinfo 1.5-1
+vulkan-tools 1.3.269-1
+
+# vnc
+freerdp 2:2.11.4-1
+libvncserver 0.9.14-2
+remmina 1:1.4.35-1
+wayvnc 0.8.0-1
+
+# widget-toolkit
+glfw 3.4-2
+gtk2 2.24.33-3
+gtk3 1:3.24.41-1
+gtk4 1:4.12.5-1
+qt5-wayland 5.15.12+kde+r61-1
+qt6-wayland 6.6.2-1
+sdl2 2.30.0-1

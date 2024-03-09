@@ -15,13 +15,15 @@ browser = "firefox"
 # - helix
 editor = "helix"
 
+# - nautilus
 # - thunar
-file_manager = "thunar"
+file_manager = "nautilus"
 
 # - dunst
 notification_agent = "dunst"
 
 # - alacritty
+# - windows_terminal
 term = "alacritty"
 
 # - vscode
