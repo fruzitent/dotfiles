@@ -12,6 +12,10 @@ audio_server = "pipewire"
 # - firefox
 browser = "firefox"
 
+# - containerd
+# - docker
+cri = "containerd"
+
 # - helix
 editor = "helix"
 
