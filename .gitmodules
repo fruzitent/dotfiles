@@ -9,3 +9,8 @@ url = https://gitlab.archlinux.org/archlinux/packaging/packages/wpa_supplicant.g
 branch = master
 path = root/opt/external_paru-bin
 url = https://aur.archlinux.org/paru-bin.git
+
+[submodule "root/Program Files/WindowsPowerShell/Modules/external_containers-toolkit"]
+branch = dev
+path = root/Program Files/WindowsPowerShell/Modules/external_containers-toolkit
+url = https://github.com/fruzitent/containers-toolkit.git

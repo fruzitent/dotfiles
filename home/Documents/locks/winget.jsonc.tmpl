@@ -43,9 +43,10 @@
         // mode-c
         { "PackageIdentifier": "Kitware.CMake", "Version": "3.28.1" },
 
-        // mode-docker
-        { "PackageIdentifier": "Docker.DockerDesktop", "Version": "4.28.0" },
+        // mode-cri
         { "PackageIdentifier": "hadolint.hadolint", "Version": "2.12.0" },
+
+{{ if eq .cri "docker" -}} { "PackageIdentifier": "Docker.DockerDesktop", "Version": "4.28.0" }, {{ end }}
 
 {{ if eq .is_act true -}} { "PackageIdentifier": "nektos.act", "Version": "0.2.56" }, {{ end }}
 

@@ -1,0 +1,3 @@
+# @help: https://chezmoi.io/reference/special-files-and-directories/chezmoiignore
+
+{{ if ne .cri "containerd" -}} ./containers-toolkit/ {{ end }}
