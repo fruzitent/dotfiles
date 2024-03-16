@@ -2,5 +2,6 @@
 
 {{ if ne .chezmoi.os "linux" -}} ./etc/ {{ end }}
 {{ if ne .chezmoi.os "linux" -}} ./opt/ {{ end }}
+{{ if ne .chezmoi.os "linux" -}} ./usr/ {{ end }}
 
 {{ if ne .chezmoi.os "windows" -}} ./Program Files/ {{ end }}
