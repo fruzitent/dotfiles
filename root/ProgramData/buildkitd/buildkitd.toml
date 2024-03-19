@@ -1,0 +1,9 @@
+debug = true
+
+[log]
+format = "json"
+
+[worker.containerd]
+cniBinaryPath = "C:\\Program Files\\containerd\\cni\\bin"
+cniConfigPath = "C:\\Program Files\\containerd\\cni\\conf\\nerdctl-nat.conflist"
+enabled = true
