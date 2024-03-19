@@ -5,3 +5,4 @@
 {{ if ne .chezmoi.os "linux" -}} ./usr/ {{ end }}
 
 {{ if ne .chezmoi.os "windows" -}} ./Program Files/ {{ end }}
+{{ if ne .chezmoi.os "windows" -}} ./ProgramData/   {{ end }}
