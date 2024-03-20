@@ -26,3 +26,7 @@ Get-WindowsCapability -Name OpenSSH.Server -Online | Add-WindowsCapability -Onli
 Set-Service -PassThru -StartupType "Automatic" -Status "Running" -Name "ssh-agent"
 Set-Service -PassThru -StartupType "Automatic" -Status "Running" -Name "sshd"
 ```
+
+- [buidlkitd](https://github.com/moby/buildkit)
+- [containerd](https://github.com/containerd/containerd)
+- [windows-container-networking](https://github.com/microsoft/windows-container-networking)
