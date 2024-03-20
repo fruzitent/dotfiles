@@ -1,4 +1,4 @@
-# [buildkit](https://github.com/moby/buildkit)
+# buildkit
 
 ```powershell
 buildkitd --register-service

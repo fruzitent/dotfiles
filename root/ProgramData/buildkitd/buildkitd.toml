@@ -5,5 +5,5 @@ format = "json"
 
 [worker.containerd]
 cniBinaryPath = "C:\\Program Files\\containerd\\cni\\bin"
-cniConfigPath = "C:\\Program Files\\containerd\\cni\\conf\\nerdctl-nat.conflist"
+cniConfigPath = "C:\\Program Files\\containerd\\cni\\conf\\0-containerd-nat.conf"
 enabled = true
