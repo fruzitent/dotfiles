@@ -14,8 +14,9 @@
 {{ if eq .asio_driver "flexasio" -}} { "PackageIdentifier": "dechamps.FlexASIO", "Version": "1.9" }, {{ end }}
 
         // audio-tools
-        { "PackageIdentifier": "jthedering.EqualizerAPO", "Version": "1.2.1" }, // TODO: https://github.com/microsoft/winget-pkgs/issues/9186
         { "PackageIdentifier": "VB-Audio.Voicemeeter.Banana", "Version": "2.0.6.8" },
+
+{{ if eq .is_equalizerapo true -}} { "PackageIdentifier": "jthedering.EqualizerAPO", "Version": "1.2.1" }, // TODO: https://github.com/microsoft/winget-pkgs/issues/9186 {{ end }}
 
         // credentials
         { "PackageIdentifier": "Bitwarden.Bitwarden", "Version": "2023.10.1" },
