@@ -1,0 +1,13 @@
+<objects>
+  <object collapse="1" tag="1" name="AMDRSServ.exe"></object>
+  <object collapse="1" tag="1" name="chatterino.exe"></object>
+  <object collapse="1" tag="1" name="chrome.exe"></object>
+  <object collapse="1" tag="1" name="Code.exe"></object>
+  <object collapse="1" tag="1" name="Discord.exe"></object>
+  <object collapse="1" tag="1" name="gpg-agent.exe"></object>
+  <object collapse="1" tag="1" name="RadeonSoftware.exe"></object>
+  <object collapse="1" tag="1" name="Spotify.exe"></object>
+  <object collapse="1" tag="1" name="System Idle Process"></object>
+  <object collapse="1" tag="1" name="wininit.exe"></object>
+  <object collapse="1" tag="1" name="winlogon.exe"></object>
+</objects>

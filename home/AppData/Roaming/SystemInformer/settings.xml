@@ -1,0 +1,17 @@
+<settings>
+  <setting name="EnableInstantTooltips">1</setting>
+  <setting name="EnableMonospaceFont">1</setting>
+  <setting name="EnableNetworkResolveDoH">1</setting>
+  <setting name="EnableStartAsAdmin">1</setting>
+  <setting name="EnableThemeSupport">1</setting>
+  <setting name="FirstRun">0</setting>
+  <setting name="GraphColorMode">1</setting>
+  <setting name="HideOnClose">1</setting>
+  <setting name="HideOnMinimize">1</setting>
+  <setting name="IconSingleClick">1</setting>
+  <setting name="KsiEnable">1</setting>
+  <setting name="ProcessTreeListColumns">@96|0,0,200|1,1,50|2,2,45|3,4,70|4,5,70|10,8,180|12,6,70|39,7,70|+ProcessHacker.ExtendedTools+24,3,45</setting>
+  <setting name="PropagateCpuUsage">1</setting>
+  <setting name="ShowCommitInSummary">0</setting>
+  <setting name="StartHidden">1</setting>
+</settings>
