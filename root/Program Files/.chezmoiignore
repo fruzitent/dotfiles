@@ -1,3 +1,5 @@
 # @help: https://chezmoi.io/reference/special-files-and-directories/chezmoiignore
 
+{{ if ne .cri "containerd" -}} ./containerd/ {{ end }}
+
 {{ if ne .is_equalizerapo true -}} ./EqualizerAPO/ {{ end }}
