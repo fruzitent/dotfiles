@@ -6,4 +6,5 @@ is_htop = true
 is_obs = true
 is_qbittorrent = true
 is_spotify = true
+is_systeminformer = true
 is_tmux = true

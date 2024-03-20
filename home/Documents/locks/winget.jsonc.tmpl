@@ -82,7 +82,8 @@
 
         // power
         { "PackageIdentifier": "REALiX.HWiNFO", "Version": "7.66" },
-        { "PackageIdentifier": "WinsiderSS.SystemInformer", "Version": "3.0.7333" }, // TODO: https://github.com/microsoft/winget-pkgs/issues/109907
+
+{{ if eq .is_systeminformer true -}} { "PackageIdentifier": "WinsiderSS.SystemInformer", "Version": "3.0.7333" }, // TODO: https://github.com/microsoft/winget-pkgs/issues/109907 {{ end }}
 
         // recording
         { "PackageIdentifier": "ShareX.ShareX", "Version": "15.0.0" },
