@@ -7,3 +7,6 @@ format = "json"
 cniBinaryPath = "C:\\Program Files\\containerd\\cni\\bin"
 cniConfigPath = "C:\\Program Files\\containerd\\cni\\conf\\0-containerd-nat.conf"
 enabled = true
+
+# TODO: https://github.com/docker/buildx/issues/2411
+gc = false
