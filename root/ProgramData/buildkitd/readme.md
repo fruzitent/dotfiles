@@ -1,7 +1,9 @@
 # buildkit
 
 ```powershell
-buildkitd --register-service
+net localgroup "buildkit-users" /add
+net localgroup "buildkit-users" "${env:USERNAME}" /add
+buildkitd --group "buildkit-users" --register-service
 ```
 
 ```powershell
