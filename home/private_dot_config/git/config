@@ -11,6 +11,7 @@ gpgsign = true
 
 [core]
 excludesfile = "~/.config/git/ignore"
+fileMode = false
 hooksPath = "~/.config/git/hooks"
 ignorecase = false
 
