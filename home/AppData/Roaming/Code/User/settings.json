@@ -7,6 +7,7 @@
   "github.copilot.editor.enableCodeActions": false,
   /** c++ */
   "C_Cpp.intelliSenseEngine": "disabled",
+  "clangd.arguments": ["--query-driver=**"],
   "cmake.allowUnsupportedPresetsVersions": true,
   "cmake.automaticReconfigure": false,
   "cmake.configureOnOpen": false,
