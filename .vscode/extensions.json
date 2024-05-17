@@ -47,6 +47,8 @@
     "naco-siren.gradle-language",
     "vscjava.vscode-gradle",
     "vscjava.vscode-java-pack",
+    /** mode-jinja */
+    "samuelcolvin.jinjahtml",
     /** mode-js */
     "dbaeumer.vscode-eslint",
     "dtsvet.vscode-wasm",
@@ -64,6 +66,8 @@
     "ms-kubernetes-tools.vscode-kubernetes-tools",
     /** mode-kt */
     "mathiasfrohlich.kotlin",
+    /** mode-lua */
+    "sumneko.lua",
     /** mode-md */
     "bierner.github-markdown-preview",
     "bierner.markdown-image-size",
@@ -84,6 +88,7 @@
     "rust-lang.rust-analyzer",
     "serayuzgur.crates",
     /** mode-sh */
+    "bmalehorn.vscode-fish",
     "foxundermoon.shell-format",
     "ms-vscode.powershell",
     "timonwong.shellcheck",
@@ -108,6 +113,7 @@
     "hediet.vscode-drawio",
     "icrawl.discord-vscode",
     "ms-vscode.hexeditor",
+    "skellock.just",
     /** qa */
     "github.vscode-codeql",
     // "snyk-security.snyk-vulnerability-scanner",
@@ -127,6 +133,7 @@
     "bierner.emojisense",
     "chrislajoie.vscode-modelines",
     "christian-kohler.path-intellisense",
+    "janjoerke.align-by-regex",
     "marclipovsky.string-manipulation",
     "ms-vscode.live-server",
     "mutantdino.resourcemonitor",
