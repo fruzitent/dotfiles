@@ -6,6 +6,7 @@
 {{ if (or (ne .chezmoi.os "linux") (ne .editor             "helix"))     -}} ./helix/          {{ end }}
 {{ if (or (ne .chezmoi.os "linux") (ne .file_manager       "thunar"))    -}} ./xfce4/          {{ end }}
 {{ if (or (ne .chezmoi.os "linux") (ne .notification_agent "dunst"))     -}} ./dunst/          {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .shell              "fish"))      -}} ./fish/           {{ end }}
 {{ if (or (ne .chezmoi.os "linux") (ne .term               "alacritty")) -}} ./alacritty/      {{ end }}
 {{ if (or (ne .chezmoi.os "linux") (ne .visual             "vscode"))    -}} ./code-flags.conf {{ end }}
 {{ if (or (ne .chezmoi.os "linux") (ne .visual             "vscode"))    -}} ./Code/           {{ end }}

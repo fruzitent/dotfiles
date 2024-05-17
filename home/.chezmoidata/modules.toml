@@ -26,6 +26,10 @@ file_manager = "nautilus"
 # - dunst
 notification_agent = "dunst"
 
+# - fish
+# - zsh
+shell = "fish"
+
 # - alacritty
 # - windows_terminal
 term = "alacritty"

@@ -1,9 +1,9 @@
 # @help: https://chezmoi.io/reference/special-files-and-directories/chezmoiignore
 
 {{ if (or (ne .chezmoi.os "linux") (ne .browser "firefox")) -}} ./.mozilla/ {{ end }}
+{{ if (or (ne .chezmoi.os "linux") (ne .shell   "zsh"))     -}} ./.zshrc/   {{ end }}
 
 {{ if ne .chezmoi.os "linux" -}} ./.gtkrc-2.0 {{ end }}
-{{ if ne .chezmoi.os "linux" -}} ./.zshrc     {{ end }}
 
 {{ if (or (ne .chezmoi.os "windows") (ne .asio_driver "flexasio")) -}} ./FlexASIO.toml {{ end }}
 
