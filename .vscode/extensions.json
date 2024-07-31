@@ -85,8 +85,8 @@
     "ms-python.python",
     "ms-python.vscode-pylance",
     /** mode-rs */
+    "fill-labs.dependi",
     "rust-lang.rust-analyzer",
-    "serayuzgur.crates",
     /** mode-sh */
     "bmalehorn.vscode-fish",
     "foxundermoon.shell-format",
